@@ -1,4 +1,4 @@
-# Web Development Project
+# Web Development Learning
 
 This repository contains structured folders for HTML, CSS, and JavaScript files.
 
