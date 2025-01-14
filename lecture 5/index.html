@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img width="300" height="230" src="Baburao.jpg" alt="Baburao ganpatrao apte">
+    <!--img tag is usedt to insert images,here <src> is used to refer to image and <alt> returns a text that appears if image is unable to reload-->
+    <!--using <width> and <height> attribute we can adjust size of image, if we want to adjust height automatically then use width only and vice-versa-->
+    
+    <table>
+        <caption>Details:</caption>
+
+        <thead>Header</thead><!--thead tag is used to create header in table--> 
+
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Designation</th>
+            </tr>
+            <tr>
+                <td>Sourav</td>
+                <td>20</td>
+                <td>Student</td>
+            </tr>
+            <tr>
+                <td >Alpha</td>
+                <td>21</td>
+                <td>Intern</td>
+            </tr>
+            <tr>
+                <td colspan="2">Bravo</td>
+                <td rowspan="2">Developer</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>22</td>
+            </tr>
+        </tbody><!--its not needed to create tbody but we do this to group them-->
+
+        <tfoot>Footer</tfoot><!--tfoot tag is used to create footer in table-->
+    </table>
+    <!--table tag is used to create table, <caption> tag is used to give title to table-->
+    <!--tr tag is used to create rows, <th> tag is used to create header cells, <td> tag is used to create data cells-->
+    <!--colspan attribute is used to merge columns, rowspan attribute is used to merge rows-->
+    <!--colspan and rowspan are used to merge cells in table-->
+
+    <!--table can have 3 parts: <thead>, <tbody>, <tfoot>-->
+    <!--thead is used to create header in table, tbody is used to create body of table, tfoot is used to create footer in table-->
+    <!--we can divide table ito three different parts i.e. we can group them-->
+
+    <h2>Unordered List:</h2>
+        <ul>
+            <li>Sourav</li>
+            <li>Charlie</li>
+            <li>Alpha</li>
+        </ul>
+        <ul type="circle">
+            <li>Bravo</li>
+            <li>Delta</li>
+        </ul>
+        <!--ul tag is used to create unordered list, <li> tag is used to create list items-->
+            <!--type attribute is used to change type of bullet points in list, default is disc-->
+            <!--type attribute can have values: disc, circle, square-->
+        
+        <h2>Ordered List:</h2>
+        <ol>
+            <li>Sourav</li>
+            <li>Charlie</li>
+            <li>Alpha</li>
+        </ol>
+        <ol type="A">
+            <li>Bravo</li>
+            <li>Delta</li>
+        </ol>
+        <!--ol tag is used to create ordered list, <li> tag is used to create list items-->
+            <!--type attribute is used to change type of numbering in list, default is 1-->
+            <!--type attribute can have values: 1, A, a, I, i-->
+        
+        <h2>Definition List:</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hyper Text Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JS</dt>
+            <dd>JavaScript</dd>
+        </dl>
+        <!--dl tag is used to create definition list, <dt> tag is used to create definition
+            term, <dd> tag is used to create definition description-->
+
+    <script src="script.js"></script>
+</body>
+</html>
