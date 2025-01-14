@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <label for="username">Enter your username : </label>
+            <input type="text" id="username" name="username" placeholder="Username here" required autofocus>
+        </div>
+
+        <div>
+            <label for="password">Enter your password : </label>
+            <input type="text" id="password" name="password" placeholder="Password here" required>
+        </div>
+        
+        <div>
+            <label for="gender">Choose your Gender : </label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="city">Choose your city : </label>
+            <select name="city" id="city">
+                <option value="no choice"></option>
+                <option value="jaipur">Jaipur</option>
+                <option value="jodhpur">Jodhpur</option>
+                <option value="udaipur">Udaipur</option>
+                <option value="ajmer">Ajmer</option>
+                <option value="ahemedabad">Ahemedabad</option>
+                <option value="surat">Surat</option>
+                <option value="pune">Pune</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="nagpur">Nagpur</option>
+                <option value="nashik">Nashik</option>
+                <option value="sambhajinagar">Sambhajinagar</option>
+                <option value="kolhapur">Kolhapur</option>
+                <option value="solapur">Solapur</option>
+                <option value="new delhi">New Delhi</option>
+                <option value="gurugram">Gurugram</option>
+                <option value="noida">Noida</option>
+                <option value="ghaziabad">Ghaziabad</option>
+                <option value="chandigarh">Chandigarh</option>
+                <option value="mohali">Mohali</option>
+                <option value="ludhiana">Ludhiana</option>
+                <option value="amritsar">Amritsar</option>
+                <option value="jalandhar">Jalandhar</option>
+                <option value="patiala">Patiala</option>
+                <option value="bathinda">Bathinda</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="howrah">Howrah</option>
+                <option value="guwahati">Guwahati</option>
+                <option value="shillong">Shillong</option>
+                <option value="gangtok">Gangtok</option>
+                <option value="darjeeling">Darjeeling</option>
+                <option value="siliguri">Siliguri</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="kanpur">Kanpur</option>
+                <option value="prayagraj">Prayagraj</option>
+                <option value="varanasi">Varanasi</option>
+                <option value="agra">Agra</option>
+                <option value="mathura">Mathura</option>
+                <option value="meerut">Meerut</option>
+                <option value="bareilly">Bareilly</option>
+                <option value="indore">Indore</option>
+                <option value="bhopal">Bhopal</option>
+                <option value="jabalpur">Jabalpur</option>
+                <option value="gwalior">Gwalior</option>
+                <option value="ujjain">Ujjain</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="chennai">Chennai</option>
+
+            </select>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <div>
+            <textarea type="comment" id="comment" name="comment" rows="4" cols="50" placeholder="Enter your comment here(0-200 letters)"></textarea>
+        </div>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
